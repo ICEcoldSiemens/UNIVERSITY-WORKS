@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register or Report | BIKEWATCH Gloucestershire  </title>
+
+    <link rel="stylesheet" href="css_docs/gloucestershireBW_register&report.css">
+
+
+</head>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+<body>
+    <header>
+        <br>
+        <h1 id ="_title" align="center">BIKEWATCH Gloucestershire</h1>
+        <a class="home_nav" href="gloucestershireBW_homepage.html">Home</a>
+    </header>
+
+
+<div class = "register_form" align="center">
+    <h2>Register Your Bike Here</h2>
+    <form action="/bike_submit" method="post" enctype="multipart/form-data">
+
+        <label for="mpn">Manufacturer part number (MPN): </label>
+        <input type="text" id="mpn" name="mpn" required>
+
+        <label for="brand_name"> Brand of Bike: </label>
+        <input type="text" id="brand_name" name="brand_name" required>
+
+        <label for="model"> Model of Bike: </label>
+        <input type="text" id="model" name="model" required>
+
+        <label for="type">Type of Bike: </label>
+        <select id="type" name="type" required>
+            <option value=""></option>
+            <option value="road_bike">Road Bike</option>
+            <option value="electric_bike">Electric Bike</option>
+            <option value="bmx">BMX</option>
+            <option value="mountain_bike">Mountain Bike</option>
+        </select>
+
+<br><br>
+
+        <label for="size">Bike Size: </label>
+        <select id="size" name="size" required>
+            <option value=""></option>
+            <option value="14">14"</option>
+            <option value="14">16"</option>
+            <option value="20">20"</option>
+            <option value="26">26"</option>
+            <option value="29">29"</option>
+        </select>
+
+        <label for="colour"> Bike Colour: </label>
+        <input type="text" id="colour" name="colour" required>
+
+        <label for="gear"> Bike Gears: </label>
+        <input type="number" id="gear" name="gear" required>
+
+        <label for="brake"> Bike Brakes: </label>
+        <select id="brake" name="brake" required>
+            <option value=""></option>
+            <option value="c_brakes">Caliper Brakes [Rim Brakes]</option>
+            <option value="can_brakes">Cantilever Brakes [Rim Brakes]</option>
+            <option value="v_brakes">V-Brakes [Linear-Pull Brakes]</option>
+            <option value="m_disk_brakes">Mechanical Disc Brakes</option>
+            <option value="h_disk_brakes">Hydraulic Disc Brakes</option>
+            <option value="drum_brakes">Drum Brakes</option>
+            <option value="coaster_brakes">Coaster Brakes</option>
+            <option value="u_brakes">U-Brakes</option>
+            <option value="roller_brakes">Roller Brakes</option>
+        </select>
+
+<br><br>
+
+        <label for="suspension">Bike Suspension: </label>
+        <select id="suspension" name="suspension" required>
+            <option value=""></option>
+            <option value="none">None</option>
+            <option value="front">Front Suspension</option>
+            <option value="full">Full Suspension</option>
+            <option value="air">Air Suspension</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="gender"> Gender: </label>
+        <select id="gender" name="gender" required>
+            <option value=""></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="non_binary">Non-Binary</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="age_range"> Age Group: </label>
+        <select id="age_range" name="age_range" required>
+            <option value=""></option>
+            <option value="toddler">1-3 [Toddler]</option>
+            <option value="child">4-12 [Child]</option>
+            <option value="teen">13-19 [Teenager]</option>
+            <option value="adult">> 18 [Adult]</option>
+        </select>
+
+        <label for="image"> Bike Image: </label>
+        <input type="file" id="image" name="image" required>
+
+        <br><br>
+
+        <input type="submit" value="Register Now">
+        </form>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+
+<br>
+
+<div class = "report_form" align="left">
+    <h2>Report A Missing Bike</h2>
+    <form action="" method="post" href="gloucestershireBW_homepage.html">
+
+        <label for="registered_bikes">Registered Bikes: </label>
+        <select id="registered_bikes" name="registered_bikes" required>
+            <option value=""></option>
+            <option value="none">None</option>
+        </select>
+
+        <br><br>
+
+        <label for="location">Last Seen Location: </label>
+        <textarea id="location" name="location" rows="2" required></textarea>
+
+        <br><br>
+
+        <label for="bike_description"> Bike Description: </label>
+        <textarea id ="bike_description" name="bike_description" rows="6" required></textarea>
+
+        <br><br>
+
+        <label for="phone_contact"> Phone Number: </label>
+        <input type="text" id="phone_number" name="phone_number" required>
+
+        <br><br>
+
+        <input type="submit" value="Report Now">
+        </form>
+
+</div>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+<div class = "report_status" align="right">
+    <img src="images/register_now.jpg" width="600", height="400">
+</div>
+
+
+                                                 
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
+    
+<script>
+
+
+
+</script>
+</body>
+
+</html>

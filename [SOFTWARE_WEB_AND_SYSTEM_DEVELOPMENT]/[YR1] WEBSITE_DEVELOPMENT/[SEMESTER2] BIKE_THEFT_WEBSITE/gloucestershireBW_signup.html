@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | BIKEWATCH Gloucestershire  </title>
+
+    <link rel="stylesheet" href="css_docs/gloucestershireBW_signup.css">
+
+
+</head>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+<body>
+    <header>
+        <br>
+        <h1 id ="signup_title" align="center">BIKEWATCH Gloucestershire</h1>
+        <a class="home_nav" href="gloucestershireBW_homepage.html">Home</a>
+    </header>
+
+
+    <div id="image" align="right">
+        <img src="images/bike_pic_three.jpg" alt="Picture of a person sitting beside their bike" height="710" width="1519">
+    </div>
+
+
+    <div class = "signup_form_citizen" align="center">
+        <h2 align="center">Create an account now</h2>
+        <form action="" method="POST">
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" name="email" required>
+            <label for="Password">Password: </label>
+            <input type="password" id="Password" name="Password" required>
+            <label for="full_name">Full Name: </label>
+            <input type="text" id="full_name" name="full_name" required>
+            <br><br>
+            <label for="collar_number" id="collar_number">Collar Number:
+            <input type="text" name="collar_number" required></label>
+            <input type="checkbox" id="police" onchange="toggle()">
+            <label for="police">Are you a police officer?</label>
+            <br><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+
+
+    <div id="already" align="center">
+        <p align="center">Already have an account?</p>
+        <a class="sign_in" href="gloucestershireBW_login.html">Log In</a>
+    </div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+                                                 
+<script>
+
+function toggle()
+{ 
+    var checkbox = document.getElementById('police');
+    var input_police = document.getElementById('collar_number');
+
+    if(checkbox.checked)
+    { 
+        input_police.style.display = 'block';
+    
+    }
+
+    else{
+        input_police.style.display = 'none';
+    }
+}
+
+</script>
+</body>
+
+</html>

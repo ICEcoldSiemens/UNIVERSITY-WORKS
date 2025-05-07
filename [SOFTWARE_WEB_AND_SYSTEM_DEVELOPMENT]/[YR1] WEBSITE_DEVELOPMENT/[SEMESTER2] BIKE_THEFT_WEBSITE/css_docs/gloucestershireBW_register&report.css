@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+    margin: 0%;
+}
+
+header{
+    background-color: white;
+}
+
+#_title{
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts\Montserrat\static\Montserrat-Bold.ttf');
+    }
+    font-family: 'Montserrat', sans-serif;
+}
+
+.report_form{
+    position: relative;
+    left: 20%;
+
+}
+
+
+.report_status {
+    position: fixed;
+    top: 40%;
+    right: 5%;
+}
+
+.home_nav {
+    position: fixed;
+    top: 4%;
+    right:15%;
+    font-size: 20px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+
+header{
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+
+#signup_title{
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts\Montserrat\static\Montserrat-Bold.ttf');
+    }
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signup_form_citizen{
+    position: fixed;
+    top:30%;
+    left:25%;
+}
+
+#already{
+    position: fixed;
+    top:55%;
+    right:44%;
+}
+
+.home_nav {
+    position: fixed;
+    top: 4%;
+    right:15%;
+    font-size: 20px;
+}
+
+#collar_number{
+    display: none;
+}

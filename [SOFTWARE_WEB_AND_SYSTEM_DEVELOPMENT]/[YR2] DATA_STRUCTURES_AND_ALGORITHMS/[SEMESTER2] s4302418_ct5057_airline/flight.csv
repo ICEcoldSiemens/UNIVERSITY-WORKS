@@ -1,0 +1,16 @@
+Flight_Number, Departure_Airport_Code, Departure_Airport_Name, Arrival_Airport_Code, Arrival_Airport_Name, Departure_Date
+UA560, SFO, San-Francisco-International, IAH, Bush-Intercontinental, 2018-08-05
+B6624, OAK, Oakland-International, LAX, Los-Angeles-International, 2018-02-09
+DL5841, LAS, McCarren-International, LAX, Los-Angeles-International, 2018-04-23
+DL1149, HNL, Honolulu-International, OAK, Oakland-International, 2018-03-18
+G4529, JFK, John-F-Kennedy-International, MDW, Midway, 2018-09-12
+G4154, SCK, Stockton-Metropolitan, FAT, Fresno-Yosemite-International, 2018-02-17
+G4155, MSY, Louis-Armstrong, SCK, Stockton-Metropolitan, 2018-04-21
+HA48, ORD, Chicago-OHare-International, HNL, Honolulu-International, 2018-02-24
+AA1522, MDW, Midway, SFO, San-Francisco-International, 2018-08-05
+AA3472, SMF, Sacramento-International, ORD, Chicago-OHare-International, 2018-05-12
+WN380, SCK, Stockton-Metropolitan, MDW, Midway, 2018-10-19
+UA384, PHX, Phoenix-Sky-Harbor, JFK, John-F-Kennedy-International, 2018-02-24
+B289, DEN, Denver-International, SCK, Stockton-Metropolitan, 2018-02-24
+DL3432, EWR, Newark-International, HNL, Honolulu-International, 2018-08-05
+UA203, LAX, Los-Angeles-International, SFO, San-Francisco-International, 2018-03-15

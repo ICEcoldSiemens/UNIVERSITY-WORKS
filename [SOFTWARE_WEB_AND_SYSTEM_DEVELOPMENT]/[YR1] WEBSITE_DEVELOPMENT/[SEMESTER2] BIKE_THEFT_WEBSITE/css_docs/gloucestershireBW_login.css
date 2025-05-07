@@ -1,0 +1,47 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+
+header{ 
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+
+#login_title{
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts\Montserrat\static\Montserrat-Bold.ttf');
+    }
+    font-family: 'Montserrat', sans-serif;
+}
+
+#new{
+    position: fixed;
+    top:20%;
+    right:45%;
+}
+
+.login_form_citizen{
+    position: fixed;
+    top:40%;
+    left:30%;
+}
+
+.login_form_police{ 
+    position: fixed;
+    top: 40%;
+    right:30%;
+}
+
+.home_nav {
+    position: fixed;
+    top: 4%;
+    right:15%;
+    font-size: 20px;
+}
+
+

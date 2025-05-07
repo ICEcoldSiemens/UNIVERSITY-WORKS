@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ct5057_airlines:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ct5057_airlines_jar</output-path>
+    <root id="archive" name="ct5057_airlines.jar">
+      <element id="module-output" name="ct5057_airlines" />
+    </root>
+  </artifact>
+</component>

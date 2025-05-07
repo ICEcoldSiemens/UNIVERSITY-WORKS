@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(63, 64, 64);
+    margin: 0;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+}
+
+#title{
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts\Montserrat\static\Montserrat-Bold.ttf');
+    }
+    font-family: 'Montserrat', sans-serif;
+}
+
+.report_list{ 
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.report_query:hover{
+    background-color: grey;
+}
+
+.report_query {
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.query_details {
+    position: fixed;
+    top:12%;
+    right:0%;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.query_information {
+    padding: 80px;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
